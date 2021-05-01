@@ -6,5 +6,9 @@
    {
       "repository":  "vendor_google_walleye",
       "target_path": "vendor/google/walleye"
+   },
+   {
+      "repository": "android_packages_apps_GCamGOPrebuilt",
+      "target_path": "packages/apps/GCamGOPrebuilt"
    }
 ]
