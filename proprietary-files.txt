@@ -1,5 +1,4 @@
 -app/datastatusnotification/datastatusnotification.apk
--app/ims/ims.apk
 -app/uceShimService/uceShimService.apk
 -app/QAS_DVC_MSP_VZW/QAS_DVC_MSP_VZW.apk
 -app/vzw_msdc_api/vzw_msdc_api.apk
@@ -28,20 +27,17 @@ lib/com.qualcomm.qti.ims.radio@1.0.so
 lib/com.qualcomm.qti.imsrtpservice@1.0.so
 lib/com.qualcomm.qti.qcril.qcrilhook@1.0.so
 lib/lib-imsvideocodec.so
-lib/lib-imsvt.so
 lib/lib-imsvtextutils.so
 lib/lib-imsvtutils.so
 lib/libdiag_system.so
 lib/libeaselcomm.so
 lib/libimscamera_jni.so
-lib/libimsmedia_jni.so
 lib/librcc.so
 lib/vendor.qti.qcril.am@1.0.so
 lib64/com.qualcomm.qti.ims.radio@1.0.so
 lib64/com.qualcomm.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.qcril.qcrilhook@1.0.so
 lib64/lib-imsvideocodec.so
-lib64/lib-imsvt.so
 lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so
 lib64/libdiag_system.so
@@ -49,7 +45,6 @@ lib64/libeaselcomm.so
 lib64/libfacenet.so
 lib64/libfrsdk.so
 lib64/libimscamera_jni.so
-lib64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.qcril.am@1.0.so
 -priv-app/CNEService/CNEService.apk
@@ -210,3 +205,10 @@ system_ext/etc/permissions/privapp-permissions-google-se.xml
 -system_ext/framework/RadioConfigLib.jar
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar
 -system_ext/priv-app/CarrierSetup/CarrierSetup.apk
+
+# IMS - from crosshatch
+-app/ims/ims.apk|6193600fb8b4c1698fb56aef8ce970da09c22d65
+lib/lib-imsvt.so|213d69c4df5901547dd64c1e45ecde0469c848bf
+lib/libimsmedia_jni.so|d5dab25fbd64adb968e5eb7e0b88db2e997bc5d0
+lib64/lib-imsvt.so|c9653f184b497115366e8490d1cd238e42504463
+lib64/libimsmedia_jni.so|fca9843e199c8a282b8f9c10514f2f3d9ed193e6
